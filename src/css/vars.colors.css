@@ -1,0 +1,32 @@
+/*------------------------------------*\
+    # vars.colors
+\*------------------------------------*/
+
+/**
+ * Generic colors
+ * Color naming taken from: http://www.color-blindness.com/color-name-hue/
+ */
+
+/**
+ * Brand colors
+ */
+$cerise:    #e62378;
+$pelorous:  #2887c9;
+
+/**
+ * Global text color
+ */
+$color-text:        #575756;
+
+/**
+ * Theme colors
+ */
+$color-primary:     $cerise;
+$color-secondary: 	$pelorous;
+
+/**
+ * Utility colors
+ */
+$color-warning:     #f44336;
+$color-success:     #4caf50;
+$color-note:        #ffeb3b;

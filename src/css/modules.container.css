@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    # modules.container
+\*------------------------------------*/
+
+ .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 $spacer;
+    /*margin-bottom: calc($unit * 10);*/
+    @media (--screen-from-med) {
+    	padding: initial;
+    }
+
+    &--sml {
+        margin: 0 auto;
+        max-width: 580px;
+        margin-bottom: calc($unit * 10);
+    }
+    &--med {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+ }

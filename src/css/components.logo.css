@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    # components.header
+\*------------------------------------*/
+
+.logo {
+
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    
+    &--primary {
+        width: 328px;
+        height: 123px;
+        margin-top: calc($unit * 6); 
+        background-size: 328px 123px;
+        background-image: svg-load(../images/logo.svg);
+        @media (--screen-from-med) {
+            width: 408px;
+            height: 324px;
+
+            background-size: 408px 324px;
+            background-image: svg-load(../images/logo-full.svg);
+            /*width: 408px;
+            height: 153px;
+
+            background-size: 408px 153px;*/
+        }
+    }
+
+    &--secondary {
+        display: block;
+        width: 48px;
+        height: 48px;
+        
+        background-size: 48px 48px;
+        background-image: svg-load(../images/logo-fmos.svg);
+    }
+}
